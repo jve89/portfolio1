@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Mulish:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #000000;
+}
+
+/* Headings and Navigation */
+
+#logo {
+    font-weight: 800;
+    font-size: xx-large;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    width: 30%;
+    text-align: center;
+    float: left;
+    font-size: 300%;
+    margin: 10px 0 0 40px;
+    
+}
+
+
