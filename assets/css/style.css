@@ -16,11 +16,12 @@ body {
 
 /* Header */
 
-#header-dimensions {
+#header-properties {
     height: 150px;
     width: 100%;
-    background-color: burlywood;
+    background-image: url('../images/sky.png');
 }
+
 
 #logo-block {
     display: inline-block;
@@ -43,9 +44,11 @@ body {
 }
 
 #logo {
+    text-decoration: none;
+    text-transform: uppercase;
     text-align: center;
     position: relative;
-    bottom: 50px;
+    bottom: 40px;
 }
 
 #menu {
@@ -54,12 +57,10 @@ body {
     font-size: large;
     text-transform: uppercase;
     letter-spacing: 2px;
+    word-spacing: 10px;
     position: relative;
-    bottom: 50px;
-    left: 50px;
-    
-    
-    
+    bottom: 30px;
+    left: 30px;
 }
 
 #menu li {
@@ -67,3 +68,12 @@ body {
     word-spacing: 4px;
     
 }
+
+#menu a.hover {
+    border-bottom: 1px solid #000000;
+}
+
+.active { 
+    border-bottom: 1px solid #000000;
+}
+
