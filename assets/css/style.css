@@ -1,77 +1,58 @@
+/* Complete website properties */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Mulish:wght@500&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
 
 body {
     font-family: 'Inter', sans-serif;
-    font-weight: 500;
+    font-weight: 100;
     color: #000000;
     
-}
+} 
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 2px solid #000000; */
+  }
+  
 
 
 /* Header */
 
-#header-properties {
-    height: 100px;
-    width: 100%;
-    background-color: #FFFFFF;
-    border-bottom: 1px solid #000000;
-}
-
-
-#logo-block {
-    display: inline-block;
-    width: 25%;
-    height: 150px;
-}
-
-#middle-block {
-    display: inline-block;
-    width: 35%;
-    height: 150px;
-}
-
-#menu-block {
-    display: inline-block;
-    width: 30%;
-    height: 150px;
-    
-    
-}
-
-#logo {
+.logo {
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-    position: relative;
-    bottom: 70px;
+    float: left;
+    width: 25%;
+
 }
 
-#menu {
+.menu {
+    float: right;
+    word-spacing: 5px;
+    position: relative;
+    top: 80px;
+
+    
+}
+
+.menu li {
     text-decoration: none;
     list-style: none;
     font-size: large;
     text-transform: uppercase;
     letter-spacing: 1px;
-    word-spacing: 10px;
-    position: relative;
-    bottom: 60px;
-    left: 200px;
-}
-
-#menu li {
     display: inline;
-    word-spacing: 10px;
-    
-    
+      
 }
 
-#menu a.hover {
+.menu a:hover {
     border-bottom: 1px solid #000000;
 }
 
@@ -81,54 +62,61 @@ body {
 
 
 
-/* Main photo and search bar */
+/* Main photo */
 
-#main-properties {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    background-color: #FFFFFF;
-}
+
 
 #main-photo {
-    background-image: url('../images/sky.png');
+    background-image: url('../images/aviation-refresh-feature-1440x600\ \(1\).webp');
     width: 100%;
     height: 600px;
+    margin: auto;
+    object-fit: fill;
     overflow: hidden;
     background-repeat: no-repeat;
-    position: absolute;
 }
 
-.search-bar { 
-    font-size: 120%;
-    font-family: inherit;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 2px;
-    background-color: rgba(57, 153, 255, 0.5);
+/* Media */
+
+@media screen and (max-width: 600px) {
+
+    .container {
+        width: 90%;
+        /* border: 2px solid #000000; */
+    }
     
-      
+    .logo {
+        font-size: large;
+        text-align: center;
+        position: relative;
+        left: 20px;
+        top: 30px
     
-    width: 35%;
-    height: 50px;
-    border: 1px solid rgba(57, 153, 255, 1);
-    padding: 10px;
+    }
 
-    position: absolute;
-    top: 50%;
-    left: 30%;
-    
-} 
+    .menu {
+        width: 5rem;
+        padding-right: 1rem;
+        
+        
+        
+    }
 
-.search-bar input {
-    width: 300px;
+    .menu li {
+        font-size: small;
+        position: relative;
+        bottom: 5rem;
+        line-height: 1.5rem;
+
+        
+    }
+
+    #main-photo {
+        background-position: center;
+        
+    }
 }
 
-.search-bar button {
-    width: 100px;
-    background-color: #FFFFFF;
-}
 
-.search-bar button:hover {
-    background-color: rgba(57, 153, 255, 1);
-}
+
+
