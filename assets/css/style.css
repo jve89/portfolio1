@@ -17,7 +17,7 @@ body {
     padding-left: 15px;
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid #000000;
+    /* border: 2px solid #000000; */
   }
   
 
@@ -36,7 +36,6 @@ header {
     text-align: center;
     width: 25%;
     margin-left: 1rem;
-    padding-top: 1rem;
 
 }
 
@@ -60,19 +59,13 @@ header {
       
 }
 
-.menu a:hover {
-    border-bottom: 1px solid #000000;
-}
-
-.active { 
+.active {
     border-bottom: 1px solid #000000;
 }
 
 
 
 /* Main photo */
-
-
 
 #main-photo {
     background-image: url('../images/aviation-refresh-feature-1440x600\ \(1\).webp');
@@ -128,24 +121,69 @@ header {
 
 footer {
     border-top: 1px solid #000000;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
 
 .logo-small {
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-    width: 10%;
+    width: 60%;
     margin-left: 1rem;
-    border: 1px solid #000000;
+    position: relative;
+    top: 0.5rem;
+    /* border: 1px solid #000000; */
     
 }
 
 .under-logo-text {
-    width: 10%;
+    width: 60%;
     text-align: center;
     margin-left: 1rem;
-    border: 1px solid #000000;
+    /* border: 1px solid #000000; */
+}
+
+#footerblock1 {
+    display: inline-block;
+    /* border: 1px solid #000000; */
+}
+
+#footerblock2 {
+    /* border: 1px solid #000000; */
+    float: right;
+    margin: 2rem 0;
+    position: relative;
+    bottom: 0.5rem;
+
+}
+
+table {
+    width: 250px;
+}
+ 
+th {
+    text-align: left;
+}
+
+/* Link properties */
+
+a:link {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #000000;
+
+}
+
+a:hover {
+    border-bottom: 1px solid #000000;
+}
+
+a:active {
+    border-bottom: 1px solid #000000;
 }
 
 
