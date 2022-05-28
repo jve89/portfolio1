@@ -187,4 +187,32 @@ a:active {
 }
 
 
+/* List */
+
+.list-container {
+    max-width: 60%;
+    margin: 0 auto;
+    /* border: 2px solid #000000; */
+}
+
+.list-container table {
+    border: 1px solid;
+    width: 100%;
+    
+}
+
+.list-container td {
+    text-align: left;
+    /* border: 1px solid red; */
+    width: 50%;
+    
+}
+
+.list-container th {
+    border-bottom: 1px solid;
+}
+
+
+
+
 
