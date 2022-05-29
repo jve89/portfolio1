@@ -32,7 +32,7 @@
                 <ul class="menu">
                 <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="list.html">List</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
                 </ul>
             </nav>
             
@@ -40,7 +40,31 @@
 
         <section>
 
-            <div id="main-photo"></div>
+            <div class="contact-container">
+
+                <form action="#" method="post">
+
+                    <h3 id="contact-header">Contact Form</h3>
+
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname">
+            
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname">
+            
+                    <label for="Nationality">Nationality</label>
+                    <input type="text" id="nationality" name="Nationality">
+                  
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write your matter here.." style="height:200px"></textarea>
+            
+                    <input type="submit" value="Submit">
+            
+                </form>
+
+            </div>
+
+            
 
             
         </section>
@@ -59,7 +83,7 @@
                        <th>Social</th>
                    </tr>
                    <tr>
-                       <td><a href="index.html" class="active">Home</a></td>
+                       <td><a href="index.html">Home</a></td>
                        <td>Facebook</td>
                    </tr>
                    <tr>
@@ -67,7 +91,7 @@
                        <td>Instagram</td>
                    </tr>
                    <tr>
-                       <td><a href="contact.html">Contact</a></td> 
+                       <td><a href="contact.html" class="active">Contact</a></td> 
                        <td>Twitter</td>
                    </tr>
                </table>
