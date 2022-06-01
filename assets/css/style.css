@@ -150,15 +150,20 @@ footer {
 #footerblock1 {
     display: inline-block;
     /* border: 1px solid #000000; */
+    width: 20%;
 }
 
 #footerblock2 {
     /* border: 1px solid #000000; */
     float: right;
+    clear: right;
     margin: 2rem 0;
-    position: relative;
-    bottom: 0.5rem;
+    
+}
 
+#footerblock2-uniqueforcontact {
+    position: relative;
+    bottom: 140px;
 }
 
 table {
@@ -264,10 +269,11 @@ a:active {
   }
 
   #map {
-      display: inline-block;
       float: right;
       padding: 1rem 0.5rem 1rem 1rem;
       border: none;
       width: 600px;
       height: 300px;
+      overflow: hidden;
+      /* border: 1px solid #000000; */
   }
