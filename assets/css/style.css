@@ -125,7 +125,7 @@ header {
 
 footer {
     border-top: 1px solid #000000;
-    margin-top: 0.5rem;
+    margin-top: 5rem;
 }
 
 .logo-small {
@@ -249,3 +249,23 @@ a:active {
     cursor: pointer;
   }
 
+  #address-container {
+      border-top: 1px solid #000000;
+      margin-top: 1rem;
+  }
+
+  address {
+      width: 20%;
+      text-align: center;
+      font-style: normal;
+      margin-left: 50px;
+      margin-top: 50px;
+      display: inline-block;
+  }
+
+  #map {
+      display: inline-block;
+      float: right;
+      padding: 1rem 0.5rem 1rem 1rem;
+      border: none;
+  }
