@@ -18,7 +18,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     /* border: 2px solid #000000; */
-    background-color:rgba(4, 160, 232, 0.2);
+    background-color:rgba(54, 185, 245, 0.1);
     border-radius: 20px;
   }
 
@@ -216,6 +216,7 @@ a:active {
     text-align: left;
     /* border: 1px solid red; */
     width: 50%;
+    line-height: 20px;
     
 }
 
