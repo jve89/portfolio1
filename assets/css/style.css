@@ -32,7 +32,7 @@ body {
 header {
     border-bottom: 1px solid #000000;
     position: relative;
-    top: 30px;
+    top: 20px;
 }
 
 .logo {
@@ -76,7 +76,6 @@ header {
     background-image: url('../images/aviation-refresh-feature-1440x600\ \(1\).webp');
     width: 100%;
     height: 600px;
-    margin: auto;
     object-fit: fill;
     overflow: hidden;
     background-repeat: no-repeat;
@@ -127,7 +126,7 @@ header {
 
 footer {
     border-top: 1px solid #000000;
-    margin-top: 7rem;
+    margin-top: 30px;
 }
 
 .logo-small {
@@ -228,8 +227,8 @@ a:active {
 
  .contact-container { 
     position: relative;
-    top: 3rem;
-    padding-bottom: 50px;
+    top: 20px;
+    padding-bottom: 20px;
     width: 60%;
     margin: auto;
 } 
@@ -249,8 +248,9 @@ a:active {
   }
 
   input[type=submit] {
-    background-color: #2b9eb3;
-    color: white;
+    background-color: rgba(90, 134, 255, 0.2);
+    color: #000000;
+    font-weight: 600;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -259,20 +259,23 @@ a:active {
 
   #address-container {
       border-top: 1px solid #000000;
-      margin-top: 1rem;
+      margin-top: 20px;
+      height: 300px;
   }
 
   address {
       width: 25%;
       text-align: center;
       font-style: normal;
-      margin-left: 50px;
+      margin-left: 100px;
       margin-top: 50px;
+      position: relative;
+      top: 30px;
       padding-bottom: 10px;
       display: inline-block;
       /* border: 1px solid #000000; */
       border-radius: 25px;
-      background-color:rgba(90, 134, 255, 0.3);
+      background-color:rgba(90, 134, 255, 0.2);
   }
 
   address p {
@@ -282,6 +285,7 @@ a:active {
   #map {
       float: right;
       padding: 1rem 0.5rem 1rem 1rem;
+      margin-top: 10px;
       border: none;
       width: 600px;
       height: 300px;
