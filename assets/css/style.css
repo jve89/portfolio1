@@ -311,6 +311,10 @@ a:active {
         
     }
 
+    #footerblock2 th {
+        width: 50px;
+    }
+
     
 
     footer {
