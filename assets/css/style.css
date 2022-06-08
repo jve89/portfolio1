@@ -72,7 +72,7 @@ header {
 /* Main photo */
 
 #main-photo {
-    background-image: url('../images/home-photo.webp');
+    background-image: url('../images/home-photo.png');
     width: 100%;
     height: 600px;
     object-fit: fill;
