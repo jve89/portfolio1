@@ -2,7 +2,7 @@
 
 In the world of aviation, a very wide variety of different abbreviations is used. There's so many that even the most experienced aviators don't know about all of them. Aviation Abbreviations is a website that tries to shine a light on a selection of the most used abbreviations in aviation. Feel free to take a look around and make yourself familiar with some of the abbreviations used in aviation. 
 
-![Responsice Mockup](../portfolio1/assets/images/responsive-mockup.jpg)
+![Responsice Mockup](https://jve89.github.io/portfolio1/assets/images/responsive-mockup.jpg)
 
 ## Features 
 
@@ -17,7 +17,11 @@ By the way... Did you find the eastern egg hidden somewhere on the website ;)
   - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar Desktop](https://jve89.github.io/portfolio1/assets/images/header-wide.png)
+
+![Nav Bar Mobile](https://jve89.github.io/portfolio1/assets/images/header-narrow.png)
+
+
 
 - __The landing page image__
 
