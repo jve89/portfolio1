@@ -72,7 +72,7 @@ header {
 /* Main photo */
 
 #main-photo {
-    background-image: url('../images/aviation-refresh-feature-1440x600\ \(1\).webp');
+    background-image: url('../images/home-photo.webp');
     width: 100%;
     height: 600px;
     object-fit: fill;
@@ -305,25 +305,28 @@ a:active {
 
     .logo-small {
         text-align: center;
-        font-size: small;
+        font-size: x-small;
         
         
     }
 
     .under-logo-text {
         text-align: center;
-        font-size: x-small;
+        font-size: xx-small;
     }
 
     #footerblock1 {
-        max-width: 130px;
+        max-width: 100px;
+        padding-right: 5px;
+        overflow: hidden;
+        /* outline: 1px solid green; */
     }
     
 
     #footerblock2 {
         font-size: x-small;
-        width: 120px;
-        margin-right: 20px;
+        width: 140px;
+        /* margin-right: 10px; */
         
     }
 

@@ -1,14 +1,14 @@
 # Aviation Abbreviations
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
-
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
+In the world of aviation, a very wide variety of different abbreviations is used. There's so many that even the most experienced aviators don't know about all of them. Aviation Abbreviations is a website that tries to shine a light on a selection of the most used abbreviations in aviation. Feel free to take a look around and make yourself familiar with some of the abbreviations used in aviation. 
 
 ![Responsice Mockup](../portfolio1/assets/images/responsive-mockup.jpg)
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+Aviations Abbreviations consists of a welcome page with a nice high resolution photo of an airplane which is interactive and by clicking it brings you to the most important page of the website, namely the list with abbreviations. The list of abbreviations is also accessible trough the header and footer menus, which consist of the home, list and contact links. The footer menu contains on top of that external links to social media platforms suchs as Facebook, Instagram and Twitter. The contact page consists of a contact form, contact address and google maps location chart. The Aviation Abbreviation logo in the top left corner of each page will bring you back to the home page by simply clicking it. 
+
+By the way... Did you find the eastern egg hidden somewhere on the website ;)
 
 ### Existing Features
 
