@@ -26,63 +26,78 @@ By the way... Did you find the eastern egg hidden somewhere on the website ;)
 
 - __Homepage Photo__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The homepage shows an interactive, high resolution photo of flight crew boarding an aircraft. As stated, the photo is interactive which means by cicking, it brings you to the abbreviation list page. 
+  - The photo used is a copyright free image and was found through google by searching for airplane photos with commercial usage right licenses.
 
 ![Homepage Photo](https://jve89.github.io/portfolio1/assets/images/home-photo.png) 
 
-- __Club Ethos Section__
+- __Abbreviation List__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The abbreviation list page is where this website is all about. Here you find a selection of widely used aviation related abbreviations.
+  - The list is ordered from A to Z. Every letter is clearly seperated by a clear border for a semantic feeling.
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Abbreviation List](https://jve89.github.io/portfolio1/assets/images/abbreviations-example.png)
 
-- __Meetup Times section__
+- __Contact Page__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - This page consists of a contact form to get in contact with the developer of the website through email. Also, you'll find here a section with usefull information, such as the address of the developer as well as an interactive map from google.
+  - The photo used in this readme is copyright free from the website pixabay.com.
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Contact](https://jve89.github.io/portfolio1/assets/images/contact.png)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer of Aviation Abbreviation is the same throughout every page and consists of a non-interactive logo in the left corner with a slogan underneath and an interactive menu on the right side which consists of the same menu items as in the header of the website as well as links to social media platforms like: Facebook, Instragram and Twitter.
+  - The footer is like every aspect of the website responsive to the size of the screen you visit the website on. The footers vary slighty from each other in the aspect of font size and spacing between the rows.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer Desktop](https://jve89.github.io/portfolio1/assets/images/footer-wide.png)
 
-- __Gallery__
-
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
-
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
-
-- __The Sign Up Page__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+![Footer Mobile](https://jve89.github.io/portfolio1/assets/images/footer-narrow.png)
 
 ### Features Left to Implement
 
-- Another feature idea
+- This website will in the future display a much more comprehensive list of aviation related abbreviations. 
+- The website will be styled to look more modern.
+- The logo will look more sophisticated in the future.
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Aviation Abbreviation has been tested on multiple web browsers installed on multiple devices. In this chapter, I'll explain the features that I've tested and the outcome of the tests. Any interesting highlights (bugs, problems, etc.) that I found will be discussed here as well. 
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+For the tests, I used both a Lenovo Ideapad 340 laptop and a Samsung Galaxy S21FE Android smartphone. The browers installed on the laptop are Chrome Version 102.0.5005.63, Firefox Version 101.0 and Edge Version 102.0.1245.33. The browsers installed on the smartphone are Chrome Version 102.0.5005.99, Firefox Version 101.1.1 and Opera Version 69.2.3606.65175. All of these browsers are considered the latest updates at the time of writing (08/06/2022).
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+Chrome (desktop)
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+- All buttons work.
+- The current active page shows a line under the menu item (both in header and footer).
+- Hovering over the menu item underlines it as well.
+- Clicking the home photo brings you to the abbreviation list.
+- Clicking the website logo brings you back to home.
+- All social media links work.
+- Contact form works but only using your own email client.
+- Contact address readible in full width (desktop) all the way down to a minimum width of 320px (mobile).
+- interactive map visible in full width (desktop) all the way down to a minimum width of 320px (mobile).
+- List items well readible in full width (desktop) all the way down to a minimum width of 320px (mobile).
+- Hidden eastern egg works as well!
 
+Below a width of 320px, weird stuff starts to happen. the viewport starts to get too narrow to show all website properties without overlapping or shifting to another location.
+
+Firefox and Edge have been tested the exact same way and have the exact same outcome. For that reason, I won't list the same items once again. The only difference was the loading speed in Edge which was noticably slower. 
+
+Chrome (mobile)
+
+- All buttons work.
+- The current active page shows a line under the menu item (both in header and footer).
+- Clicking the home photo brings you to the abbreviation list.
+- Clicking the website logo brings you back to home.
+- All social media links work.
+- Contact form unfortunately doesn't work (405 not allowed).
+- Contact address readible.
+- interactive map visible.
+- List items well readible.
+- Hidden eastern egg works as well!
+
+Just like on the desktop, the testing went exactly the same in both other browsers. The contact form not working happened in these browsers as well.
 
 ### Validator Testing 
 
