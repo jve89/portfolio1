@@ -127,37 +127,30 @@ The live link can be found here - https://jve89.github.io/portfolio1/
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+Most of the credits will go to websites that I used to learn from such as:
 
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+- https://www.w3schools.com/ (very useful website where you can search for code properties and how to use them)
+- https://developer.mozilla.org/ (Does the same as the website mentioned above)
 
+I used youtube as well to learn. Very useful youtube channels are:
+
+- Web Dev Simplified
+- SuperSimpleDev
+- Adrian Twarog
+- Dani Krossing
+
+Special thanks goes to my dear mentor! Mister Spencer Barriball. My second contact with him was just after I started this portfolio project and I was really struggling to find a direction. I came up myself with the idea to develop a website about this topic but it was Spencer who made some changes in the code to give me a more solid foundation to build on. After this, I quickly regained my creativity and were soon on my way. 
+ 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+I filtered the list items from wikipedia. I took the ones I knew from my own experience in aviation. I found other lists of abbreviations but they all came down to the same, since aviation is mostly standardized. For that reason, the list I found on wikipedia was sufficient to get all the abbreviations from. See page: https://en.wikipedia.org/wiki/List_of_aviation,_avionics,_aerospace_and_aeronautical_abbreviations
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- The main photo used on the home page was found through google search. I specifically searched for a photo that I could use commercially and found this photo on a website like shutterstock. Unfortunately, I couldn't recover the exact website since I found it already in the beginning of writing this project. I tried to follow the same road again but this specific photo didn't come up in my searches. I can assure it is copyright free though. 
 
+- The google map in the contact page was imported from google maps and is free to use. I had to learn how to import it to my website which was done by visiting the websites mentioned above. 
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
+### Epilogue 
 
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+Thank you for taking the time to read through this README, my code and of course the end result of the Aviation Abbreviation website. I started this project with a bit of a lack of creativity and direction but soon after, I pulled myself together and found a goal to pursuit. Mainly because I'm an aviation professional myself, this topic to write my first website about was an obvious choice. Thank you, and I'll see you in my next portfolio project.
