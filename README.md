@@ -102,10 +102,15 @@ Just like on the desktop, the testing went exactly the same in both other browse
 ### Validator Testing 
 
 - HTML
-  - Initially 4 errors were detected. After debugging, the test returned without any errors or warnings in the W3C HTML validator [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjve89.github.io%2Fportfolio1%2F)
+  - Initially 7 errors were detected. After debugging, the test returned without any errors or warnings in the W3C HTML validator [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjve89.github.io%2Fportfolio1%2F)
 
 - CSS
   - No errors were found when passing through the official Jigsaw CSS validator [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjve89.github.io%2Fportfolio1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+- Lighthouse
+  - All pages have been tested both for the desktop version as the mobile version. Overall, the desktop version performed superior over the mobile version but both were sufficient. The picture below shows the result of the home page desktop version test. 
+
+  ![Lighthouse performance testing](https://jve89.github.io/portfolio1/assets/images/lighthouse-performance.png)
 
 ### Unfixed Bugs
  
@@ -114,8 +119,6 @@ Just like on the desktop, the testing went exactly the same in both other browse
  - Some of the block elements are not perfectly alined. It took an eternity to code it the way it is. I need more experience to be able to do a better job but for a first website, I'm happy with the result.
 
 ## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
