@@ -290,6 +290,8 @@ a:active {
     .logo-small {
         text-align: center;
         font-size: x-small;
+        width: auto;
+
         
         
     }
@@ -297,6 +299,7 @@ a:active {
     .under-logo-text {
         text-align: center;
         font-size: xx-small;
+        width: auto;
     }
 
     #footerblock1 {
