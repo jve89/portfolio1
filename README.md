@@ -1,4 +1,4 @@
-# Aviation Abbreviations
+# Aviation Abbreviation
 
 In the world of aviation, a very wide variety of different abbreviations is used. There's so many that even the most experienced aviators don't know about all of them. Aviation Abbreviations is a website that tries to shine a light on a selection of the most used abbreviations in aviation. Feel free to take a look around and make yourself familiar with some of the abbreviations used in aviation. 
 
